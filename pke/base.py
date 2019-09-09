@@ -82,7 +82,7 @@ class LoadFile(object):
             logging.warning(
                 "ISO 639 code {} is not supported, switching to 'en'.".format(
                     language))
-            language = 'en'
+#            language = 'en'
 
         # initialize document
         doc = Document()
